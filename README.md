@@ -46,7 +46,11 @@
 
 ## 2.2 节点
 
-待写
+目前项目中有两个核心 labels `Report` 和 `AnyOrganization`。其中 Report 表示一家公司某一年的年报，`AnyOrganization` 表示一个组织机构节点。
+
+任意一个组织机构，往往除了 `AnyOrganization` 还会有其他 labels，在现阶段都没啥大用。是为了未来数据更丰富、识别能力更强时提前所做的设计。
+
+此处所谓 label 是 Neo4j 这个图数据库中的概念，可以简单理解为一个 label 就是一个节点的 tag，一个节点可以有多个 labels/tags。
 
 # 3. 项目进度
 
